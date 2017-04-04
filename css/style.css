@@ -1,0 +1,56 @@
+body {
+  background-color: #333;
+  color: #333;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.outerbox {
+  position: relative;
+  margin: 10% auto auto auto;
+  border-radius: 4px;
+  width: 450px;
+  display: table;
+  padding: 50px 50px;
+  background-color: #fff;
+}
+.outerbox .text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+.outerbox .author {
+  width: 450px;
+  clear: both;
+  font-size: 1em;
+  text-align: right;
+  padding-top: 15px;
+}
+.outerbox .buttons {
+  display: block;
+}
+.outerbox .buttons .button {
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  margin-top: 40px;
+}
+.outerbox .buttons .button:hover {
+  opacity: 0.9;
+}
+.outerbox .buttons .button#tweet {
+  float: left;
+  height: 30px;
+  width: 40px;
+  padding-top: 2px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.outerbox .buttons .button#new {
+  float: right;
+}

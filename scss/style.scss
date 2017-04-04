@@ -1,0 +1,69 @@
+
+body{
+  background-color:#333;
+  color:#333;
+  font-family: sans-serif;
+  font-weight:400;
+}
+.outerbox{
+  position:relative;
+  margin:10% auto auto auto;
+  border-radius : 4px;
+  width:450px;
+  display:table;
+  padding:50px 50px;
+  background-color:#fff;
+  .text{
+    text-align:center;
+    width:450px;
+    height:auto;
+    font-weight:500;
+    font-size:1.5em;
+  }
+  .author{
+    width:450px;
+    clear:both;
+    font-size:1em;
+    text-align:right;
+    padding-top:15px;
+    
+    
+  }
+  .buttons{
+    
+    
+    display:block;
+    .button{
+      height:40px;
+      border:none;
+      border-radius:3px;
+      color:#fff;
+      background-color:#333;
+      outline:none;
+      
+      margin-top:40px;
+      &:hover{
+        opacity:0.9;
+        
+      }
+      &#tweet{
+        float:left;
+        height:30px;
+        width:40px;
+        padding-top:2px;
+        font-size:1.2em;
+        text-align:center;
+       }
+      &#new{
+        float:right;
+      }
+      
+      
+      
+      
+    }
+    
+  }
+  
+
+}
